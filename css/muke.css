@@ -1,0 +1,45 @@
+@charset "utf-8";
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+	color: #666;
+}
+.logo{width: 155px;margin: 0px;padding: 0px;margin-top:-20px;}
+#myCarousel{margin-top:50px;}
+.carousel-inner img{margin:0px auto;}
+.tab-h2{font-size: 20px;color:#0059b2;text-align: center;margin-top:50px;}
+.tab-p{font-size: 16px;color:#999;text-align: center;letter-spacing: 3px;}
+.content1{margin-top:20px;}
+.bj{margin:35px 0px ;}
+.media-body h4{margin-bottom: 30px;}
+.media-body p{margin:10px 0px;}
+/*内容区(2) */
+.content2{height: 400px;background: #eee;text-align: center;}
+.content2-img-box{margin-top: 50px;}
+.content2-img{width:50%;}
+.content2-img-box1{margin-top: 60px; }
+.content2-img-box1 h3{font-size: 20px;}
+.content2-img-box1 p{font-size: 15px;}
+.content3{background: #fff;text-align: center;}
+@media (min-width: 768px) {
+	.tab-h2{font-size: 24px;}
+	.tab-p{font-size: 16px;}
+	.content2{height:390px;}
+	.content2-img{width:40%;margin-left: -160px;}
+	.content2-img-box1{margin-top: 100px; }
+	.content2-img-box1 h3{font-size: 22px;}
+.content2-img-box1 p{font-size: 17px;}
+}
+@media (min-width: 992px) {
+	.tab-h2{font-size: 26px;}
+	.tab-p{font-size: 16px}
+	.content2-img-box1{margin-top: 130px; }
+
+}
+@media (min-width: 1200px) {
+	.tab-h2{font-size: 28px;}
+	.tab-p{font-size: 17px}
+	.content2-img{width:250px;margin-left: -200px;}
+	.content2-img-box1{margin-top: 150px; }
+	.content2-img-box1 h3{font-size:28px; }
+	.content2-img-box1 p{font-size:19px;}
+}
